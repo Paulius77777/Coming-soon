@@ -1,3 +1,4 @@
+/* Structure */
 .container {
     display: inline-block;
     width: 100%;
@@ -14,18 +15,16 @@
     }
     .container.content {
         background-color: #fff;
-        padding-top: 80px;
-        padding-bottom: 80px;
     }
     .container.footer {
         background-color: #36f;
         padding-top: 10px;
-        padding-bottom: 80px;
     }
     .container > .hero-row {
         display: inline-block;
         width: 600px;
         margin-left: calc(50% - 300px);
+        text-align: center;
     }
 
     .container > .row {
@@ -77,4 +76,41 @@
 
         }
     
+}
+
+/* HERO */
+.hero-row > .logo {
+    display: inline-block;
+    margin-bottom: 40px;
+    height: 40px;
+}
+.hero-row > h1 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 64px;
+    line-height: 60px;
+}
+.hero-row > p {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ddd;
+    
+}
+.hero-row > .clock {
+    display: inline-block;
+    width: 100%;
+    margin: 40px 0;
+}
+.hero-row > .form {
+    display: inline-block;
+    width: 90%;
+    margin: 0 5% 10px;
+}
+.hero-row > .mouse {
+    display: inline-block;
 }
