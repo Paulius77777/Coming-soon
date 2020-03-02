@@ -9,6 +9,7 @@
     box-shadow: 0 1px 3px #0006;
     cursor: pointer;
     transition: all 0.5s;
+    text-transform: capitalize;
 }
 
     .btn.hover {
