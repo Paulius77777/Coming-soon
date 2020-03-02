@@ -23,14 +23,14 @@
     .container > .hero-row {
         display: inline-block;
         width: 600px;
-        margin-left: calc(50% - 300px);
+        margin: 0 calc(50% - 300px);
         text-align: center;
     }
 
     .container > .row {
         display: inline-block;
         width: 1000px;
-        margin-left: calc(50% - 500px);
+        margin:0 calc(50% - 500px);
     }
 
         .container > .row > .left {
@@ -49,7 +49,7 @@
     .container > .row {
         display: inline-block;
         width: 800px;
-        margin-left: calc(50% - 400px);
+        margin: 0 calc(50% - 400px);
     }
 }
 
@@ -57,8 +57,7 @@
     .container > .row {
     display: inline-block;
         width: 600px;
-        margin-left: calc(50% - 300px);
-        
+        margin: 0 calc(50% - 300px);
     }
 }
 
@@ -111,6 +110,14 @@
     width: 90%;
     margin: 0 5% 10px;
 }
+.hero-row > .form > input {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.hero-row > .form > input::placeholder {
+    color: white;
+}
 .hero-row > .mouse {
     display: inline-block;
 }
@@ -141,4 +148,21 @@
 
 .content form > .btn {
     float: right;
+}
+
+/* foooter */
+.footer > .row {
+    position: relative;
+}
+.footer .bnt {
+    position: absolute;
+    top: -36px;
+    right: -12px;
+}
+
+@media (max-width: 700px) {
+
+.footer.btn {
+    display: none;
+}
 }
