@@ -26,6 +26,10 @@ form {
         outline: none;
     }
 
+    .hero-row .form > input {
+        width: 100%;
+    }
+
 @media (min-width: 1100px) {
     form > input {
         width: 45%;
